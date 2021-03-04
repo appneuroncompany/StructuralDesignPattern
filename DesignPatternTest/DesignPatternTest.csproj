@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AdapterDesignPattern\AdapterDesignPattern.csproj" />
+    <ProjectReference Include="..\DecoratorDesignPattern\DecoratorDesignPattern.csproj" />
   </ItemGroup>
 
 </Project>

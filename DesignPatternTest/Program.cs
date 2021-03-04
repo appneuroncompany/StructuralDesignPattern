@@ -1,4 +1,5 @@
 ﻿using AdapterDesignPattern;
+using DecoratorDesignPattern;
 using System;
 
 namespace DesignPatternTest
@@ -8,6 +9,7 @@ namespace DesignPatternTest
         static void Main(string[] args)
         {
             AdapterDesign.TestAdapterDesign();
+            DecoratorDesign.TestDecoratorDesign();
         }
     }
 }
