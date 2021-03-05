@@ -10,6 +10,8 @@
     <ProjectReference Include="..\BridgeDesignPattern\BridgeDesignPattern.csproj" />
     <ProjectReference Include="..\DecoratorDesignPattern\DecoratorDesignPattern.csproj" />
     <ProjectReference Include="..\FacadeDesignPattern\FacadeDesignPattern.csproj" />
+    <ProjectReference Include="..\FlyweightDesignPattern\FlyweightDesignPattern.csproj" />
+    <ProjectReference Include="..\ProxyDesignPattern\ProxyDesignPattern.csproj" />
   </ItemGroup>
 
 </Project>
