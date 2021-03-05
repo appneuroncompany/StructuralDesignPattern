@@ -1,5 +1,6 @@
 ﻿using AdapterDesignPattern;
 using BridgeDesignPattern;
+using CompositeDesignPattern;
 using DecoratorDesignPattern;
 using FacadeDesignPattern;
 using FlyweightDesignPattern;
@@ -13,12 +14,13 @@ namespace DesignPatternTest
 
         static void Main(string[] args)
         {
-            //AdapterDesign.TestAdapterDesign();
-            //DecoratorDesign.TestDecoratorDesign();
-            //BridgeDesign.TestBridgeDesign();
-            //FacadeDesign.ManageData();
-            //ProxyDesign.TestProxyDesign();
+            AdapterDesign.TestAdapterDesign();
+            DecoratorDesign.TestDecoratorDesign();
+            BridgeDesign.TestBridgeDesign();
+            FacadeDesign.ManageData();
+            ProxyDesign.TestProxyDesign();
             FlyweightDesign.TestFlyweightDesign("AAABBBCCCAAAABACABCABACACBAB");
+            CompositeDesign.TestCompositeDesign();
         }
     }
 }
