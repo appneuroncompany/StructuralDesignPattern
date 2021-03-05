@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternTest", "DesignPatternTest\DesignPatternTest.csproj", "{FBA3EFF9-EDB6-4C27-B62D-8C761294E3C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatternTest", "DesignPatternTest\DesignPatternTest.csproj", "{FBA3EFF9-EDB6-4C27-B62D-8C761294E3C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014} = {DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{7B666597-63EC-40F6-AF4C-3D49965B13AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterDesignPattern", "AdapterDesignPattern\AdapterDesignPattern.csproj", "{7B666597-63EC-40F6-AF4C-3D49965B13AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{537DF5F8-8B88-4EEB-B072-7336609A8E55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{537DF5F8-8B88-4EEB-B072-7336609A8E55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeDesignPattern", "BridgeDesignPattern\BridgeDesignPattern.csproj", "{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesignPattern", "FacadeDesignPattern\FacadeDesignPattern.csproj", "{A47A8731-37C3-43DC-ADE5-A69322190BC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,14 @@ Global
 		{537DF5F8-8B88-4EEB-B072-7336609A8E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537DF5F8-8B88-4EEB-B072-7336609A8E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537DF5F8-8B88-4EEB-B072-7336609A8E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF3DE93-0B2C-4C76-BFB0-F98C9276D014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A47A8731-37C3-43DC-ADE5-A69322190BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47A8731-37C3-43DC-ADE5-A69322190BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47A8731-37C3-43DC-ADE5-A69322190BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47A8731-37C3-43DC-ADE5-A69322190BC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
